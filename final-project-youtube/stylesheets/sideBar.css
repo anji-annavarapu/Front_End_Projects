@@ -1,0 +1,48 @@
+.side-bar{
+  position:fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 50px;
+  background-color: white;
+  z-index: 200;
+}
+.home-icon,.explore-icon,.subscriptions-icon,.originals-icon,
+.music-icon,.library-icon{
+ height: 24px;
+}
+
+
+.side-bar label{
+  font-family: roboto,arial;
+  font-size: 10px;
+}
+.home-icon-div:hover,.explore-icon-div:hover,.subscriptions-icon-div:hover,.originals-icon-div:hover,
+.music-icon-div:hover,.library-icon-div:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+@media(max-width:600px){
+  .home-icon-div,.explore-icon-div,.subscriptions-icon-div,.originals-icon-div,
+.music-icon-div,.library-icon-div{
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 72px;
+  cursor: pointer;
+}
+}
+@media(min-width:600px){
+  .side-bar img{
+    margin-right: 25px;
+  }
+  .home-icon-div,.explore-icon-div,.subscriptions-icon-div,.originals-icon-div,
+.music-icon-div,.library-icon-div{
+  margin-bottom: 1px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+}

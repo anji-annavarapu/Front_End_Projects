@@ -1,0 +1,30 @@
+.video-text{
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.video-stats{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+}
+.video-owner{
+
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+.text-ad{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgb(123, 6, 6);
+  color: white;
+}
+.span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

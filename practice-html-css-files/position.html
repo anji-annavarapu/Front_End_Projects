@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position</title>
+  
+  </head>
+  <body style="height: 3000px;padding-top: 120px;padding-left: 100px;">
+    <!--/*absolute set the element on top of page which is movied*/
+    /*position fixed set the element on top of browser window which is movied*/
+    top set element to top 
+    like left,right,bottom also works
+    Z-index help to give priority elemnt, when two dive have on above another to display which one on top-->
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 0px;
+      left: 0;
+      right: 0;
+      height: 100px;
+      z-index: 1;
+      ">
+      header
+    </div>
+    <div style="background-color: lightgreen;
+    width: 100px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    bottom: 0;">
+      side bar
+      <div style="background-color: lightseagreen;
+    position: absolute;
+    right: 0px;
+    top: 0px;">
+      x
+    </div>
+    </div>
+    <div style="background-color: lightseagreen;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;">
+      absolute
+    </div>
+    
+    <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    ">div 1</div>
+    <div style="
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    ">
+    div 2
+    <div style="background-color: lightseagreen;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;">
+      Y
+    </div>
+    </div>
+    
+  </body>
+</html>
